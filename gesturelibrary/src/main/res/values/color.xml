@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_listitem_left_text_color">#333333</color>
+    <color name="common_gesture_error_tv">#ED3051</color>
+    <color name="common_banner_title_right">#AD935D</color>
+
+</resources>

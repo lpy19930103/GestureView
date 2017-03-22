@@ -1,0 +1,51 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gesture_edit_relay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                        android:id="@+id/gesture_edit_tip_ly"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                                android:id="@+id/gesture_edit_tip"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="@color/common_listitem_left_text_color"
+                                android:layout_marginTop="73dp"
+                                android:gravity="center_horizontal"
+                                android:text="@string/gesture_edit_tip"/>
+                </LinearLayout>
+
+                <FrameLayout
+                        android:id="@+id/gesture_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/gesture_edit_tip_ly"
+                        android:layout_marginTop="50dip" >
+                </FrameLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/gesture_container"
+                        android:orientation="vertical">
+                        <TextView
+                                android:id="@+id/reset_gesture"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:textColor="@color/common_banner_title_right"
+                                android:visibility="gone"
+                                android:text="@string/gesture_edit_reset"
+                                android:gravity="center_horizontal"
+                                android:layout_marginTop="40dp"/>
+                </LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>

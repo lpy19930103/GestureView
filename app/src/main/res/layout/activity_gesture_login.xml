@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                         android:id="@+id/activity_gesture_login"
+                                         android:layout_width="match_parent"
+                                         android:layout_height="match_parent"
+                                         android:background="#F8F8F8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp">
+
+        <LinearLayout
+            android:id="@+id/gesture_tip_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingTop="16dip">
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/user_logo"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/eg_headimage_00"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/phone_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/common_listitem_left_text_color"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/error_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/common_gesture_error_tv"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/gesture_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gesture_tip_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="22dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/num_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="账号密码登录"
+                android:textColor="@color/common_banner_title_right"
+                android:textSize="17sp" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/contact_us"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/customer_service"-->
+                <!--android:textColor="@color/common_text_gray"-->
+                <!--android:textSize="13sp" />-->
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <Button
+            android:id="@+id/button_back"
+            style="@style/common_banner_normal_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/common_banner_background"
+            android:minWidth="40dp"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+</RelativeLayout>

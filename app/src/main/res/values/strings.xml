@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GestureView</string>
+    <string name="gesture_edit_title">设置手势密码</string>
+    <string name="gesture_edit_tip">请绘制解锁图案</string>
+    <string name="gesture_edit_tip_again">请再次绘制解锁图案</string>
+    <string name="gesture_edit_reset">重新绘制</string>
+    <string name="gesture_edit_tip_error">至少需要连接4个点，请重新绘制</string>
+    <string name="gesture_edit_tip_twice_different">两次图案不同，请重新绘制</string>
+    <string name="gesture_edit_jump">跳过</string>
+    <string name="gesture_edit_sucess">手势密码设置成功！</string>
+</resources>

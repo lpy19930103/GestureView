@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        tools:context="com.lipy.gestureview.MainActivity">
+    <Button android:layout_width="match_parent"
+            android:id="@+id/login"
+            android:text="登陆"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+
+    <Button android:layout_width="match_parent"
+            android:id="@+id/set"
+            android:text="设置"
+            android:layout_gravity="center"
+            android:layout_height="50dp"/>
+
+</LinearLayout>
